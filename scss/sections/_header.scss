@@ -47,4 +47,21 @@
         margin: 5px auto;
         background-color: #333;
     }
+
+    @media (max-width: 850px) {
+        .hamburger {
+            display: block;
+        }
+        .nav-list {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            width: 100%;
+        }
+        .nav-open {
+            display: flex;
+        }
+    }
 }

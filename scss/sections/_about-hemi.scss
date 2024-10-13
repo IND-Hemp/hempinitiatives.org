@@ -11,7 +11,13 @@
             width: 50%;
             text-align: center;
             margin: 2rem auto 0 auto;
-        }        
+        }      
+        
+        @media (max-width: 750px) {
+            p {
+                width: 85%;
+            }
+        }
     }
 
 }

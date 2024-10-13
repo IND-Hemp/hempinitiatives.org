@@ -35,20 +35,6 @@ em {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
-    .nav-list {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        width: 100%;
-    }
-    .nav-open {
-        display: flex;
-    }
     .copilot-info, .copilot-image {
         display: block;
         width: 100%;

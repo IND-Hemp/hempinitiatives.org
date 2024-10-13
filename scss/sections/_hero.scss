@@ -28,6 +28,18 @@
         .scroll-icon {
 
         }
+
+        @media (max-width: 1000px) {
+            h1 {
+                width: 85%;
+            }
+        }
+
+        @media (max-width: 650px) {
+            .circle {
+                display: none;
+            }
+        }
     }
 
 

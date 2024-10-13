@@ -172,6 +172,22 @@ body {
   margin: 5px auto;
   background-color: #333;
 }
+@media (max-width: 850px) {
+  .header .hamburger {
+    display: block;
+  }
+  .header .nav-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+  }
+  .header .nav-open {
+    display: flex;
+  }
+}
 
 .hero {
   background: #ffd97e;
@@ -199,6 +215,17 @@ body {
   bottom: -16rem;
   right: 15rem;
 }
+@media (max-width: 1000px) {
+  .hero .container h1 {
+    width: 85%;
+  }
+}
+@media (max-width: 650px) {
+  .hero .container .circle {
+    display: none;
+  }
+}
+
 .hemp-copilot {
   padding: 4rem 1rem;
 }
@@ -237,6 +264,14 @@ body {
   height: auto;
   padding: 4rem;
 }
+@media (max-width: 880px) {
+  .hemp-copilot .container {
+    flex-direction: column;
+  }
+  .hemp-copilot .container .copilot-info, .hemp-copilot .container .copilot-image {
+    width: 78%;
+  }
+}
 
 .about-hemi {
   color: white;
@@ -252,6 +287,11 @@ body {
   width: 50%;
   text-align: center;
   margin: 2rem auto 0 auto;
+}
+@media (max-width: 750px) {
+  .about-hemi .container p {
+    width: 85%;
+  }
 }
 
 .mission {
@@ -274,6 +314,11 @@ body {
 .mission .container .subhead {
   font-size: 0.8em;
 }
+@media (max-width: 750px) {
+  .mission .container {
+    width: 85%;
+  }
+}
 
 .footer {
   background: #231f20;
@@ -292,20 +337,6 @@ em {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-  .nav-list {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 100%;
-  }
-  .nav-open {
-    display: flex;
-  }
   .copilot-info, .copilot-image {
     display: block;
     width: 100%;

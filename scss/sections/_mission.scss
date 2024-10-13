@@ -19,6 +19,12 @@
         .subhead {
             font-size: .8em;
         }
+
+        @media (max-width: 750px) {
+            & {
+                width: 85%;
+            }
+        }
     }
 }
 
