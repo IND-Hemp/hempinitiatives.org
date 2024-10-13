@@ -184,8 +184,30 @@ body {
     right: 0;
     width: 100%;
   }
-  .header .nav-open {
+  .header .nav.show {
     display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 75%;
+    background-color: #ffd97e;
+    padding: 2rem;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+    z-index: 2;
+  }
+  .header .nav.show .nav-list {
+    display: block;
+    top: 4rem;
+  }
+  .header .nav.show .nav-list li {
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 1.3em;
   }
 }
 
