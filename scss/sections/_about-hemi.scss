@@ -1,0 +1,17 @@
+.about-hemi {
+    color: white;
+    padding: 10rem 1rem;
+    background-image: url('/images/field.jpg');
+    background-position: center center;
+    background-size: cover;
+
+    .container {
+        text-align: center;
+        p {
+            width: 50%;
+            text-align: center;
+            margin: 2rem auto 0 auto;
+        }        
+    }
+
+}

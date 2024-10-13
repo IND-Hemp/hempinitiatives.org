@@ -1,0 +1,24 @@
+.mission {
+    background: #a5d9cd;
+    padding: 5rem 1rem 7rem 1rem;
+    background-image: url('/images/bg_green.png');
+
+    .container {
+        width: 38%;
+        text-align: center;
+
+        h1 {
+            font-size: 38px;
+            line-height: 1.2;
+            margin: 1rem 0 1.8rem 0;
+            strong {
+                color: #2a443f;
+            }
+        }
+
+        .subhead {
+            font-size: .8em;
+        }
+    }
+}
+

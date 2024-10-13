@@ -1,0 +1,46 @@
+.hemp-copilot {
+    padding: 4rem 1rem;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        
+        h1 {
+            font-size: 38px;
+            line-height: 1.2;
+            margin: 1rem 0 1.8rem 0;
+            strong {
+                color: #2a443f;
+            }
+        }
+
+        .subhead {
+            font-size: .8em;
+        }
+
+        .button {
+            background-color: #b3d336;
+            padding: .5em 1em;
+            font-size: 1.25em;
+            margin-top: 3.5rem;
+            display: inline-block;
+        }
+
+        .copilot-info, .copilot-image {
+            display: inline-block;
+            vertical-align: top;
+            width: 48%;
+            margin: 1%;
+        }
+
+        .copilot-image img {
+            width: 100%;
+            height: auto;
+            padding: 4rem;
+        }
+    }    
+    
+
+}

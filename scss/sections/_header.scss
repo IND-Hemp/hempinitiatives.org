@@ -1,0 +1,50 @@
+.header {
+    padding: 1rem 1rem;
+
+    position: absolute;
+    top: 0;
+    left: auto;
+    width: 100%;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .nav-list {
+        list-style: none;
+        display: flex;
+        margin-left: 9em;
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    .nav-list li {
+        margin-left: 1.5rem;
+        text-align: center;
+    }
+    .nav-list a {
+        text-decoration: none;
+        color: #333;
+        transition: color 0.3s;
+    }
+    .nav-list a:hover {
+        color: #000;
+    }
+    .hamburger {
+        display: none;
+        cursor: pointer;
+    }
+    .hamburger .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: #333;
+    }
+}

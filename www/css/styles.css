@@ -22,6 +22,8 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -125,45 +127,45 @@ body {
 }
 
 .header {
-  background: #ffd97e;
-  padding: 1rem 0;
+  padding: 1rem 1rem;
+  position: absolute;
+  top: 0;
+  left: auto;
+  width: 100%;
+}
+.header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 0;
 }
-
-.logo {
+.header .logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
-.nav-list {
+.header .nav-list {
   list-style: none;
   display: flex;
+  margin-left: 9em;
+  line-height: 1.2;
+  font-weight: bold;
 }
-
-.nav-list li {
+.header .nav-list li {
   margin-left: 1.5rem;
+  text-align: center;
 }
-
-.nav-list a {
+.header .nav-list a {
   text-decoration: none;
   color: #333;
   transition: color 0.3s;
 }
-
-.nav-list a:hover {
+.header .nav-list a:hover {
   color: #000;
 }
-
-.hamburger {
+.header .hamburger {
   display: none;
   cursor: pointer;
 }
-
-.hamburger .bar {
+.header .hamburger .bar {
   display: block;
   width: 25px;
   height: 3px;
@@ -174,55 +176,109 @@ body {
 .hero {
   background: #ffd97e;
   text-align: center;
-  padding: 24rem 1rem;
+  padding: 16rem 1rem 19rem 1rem;
   background-image: url("/images/vines.png"), url("/images/bg_orange.png");
   background-position: center bottom, center top;
   background-repeat: repeat-x, repeat;
 }
-
-.about-hemi {
-  padding: 24rem 1rem;
-  background-image: url("/images/field.jpg");
-  background-position: center center;
-  background-size: cover;
+.hero .container {
+  position: relative;
 }
-
-.mission {
-  background: #a5d9cd;
-  padding: 4rem 1rem;
-  background-image: url("/images/bg_green.png");
+.hero .container h1 {
+  font-size: 51px;
+  width: 52%;
+  text-align: center;
+  line-height: 1.2;
+  margin: 2rem auto 5rem auto;
 }
-
+.hero .container h1 strong {
+  color: #2a443f;
+}
+.hero .container .circle {
+  position: absolute;
+  bottom: -16rem;
+  right: 15rem;
+}
 .hemp-copilot {
   padding: 4rem 1rem;
 }
-.hemp-copilot .circle {
-  position: absolute;
-  top: -244px;
-  right: 38em;
+.hemp-copilot .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
 }
-
-.copilot-info, .copilot-image {
+.hemp-copilot .container h1 {
+  font-size: 38px;
+  line-height: 1.2;
+  margin: 1rem 0 1.8rem 0;
+}
+.hemp-copilot .container h1 strong {
+  color: #2a443f;
+}
+.hemp-copilot .container .subhead {
+  font-size: 0.8em;
+}
+.hemp-copilot .container .button {
+  background-color: #b3d336;
+  padding: 0.5em 1em;
+  font-size: 1.25em;
+  margin-top: 3.5rem;
+  display: inline-block;
+}
+.hemp-copilot .container .copilot-info, .hemp-copilot .container .copilot-image {
   display: inline-block;
   vertical-align: top;
   width: 48%;
   margin: 1%;
 }
-
-.copilot-image img {
+.hemp-copilot .container .copilot-image img {
   width: 100%;
   height: auto;
+  padding: 4rem;
 }
 
-.scroll-icon {
-  margin-top: 2rem;
-  font-size: 1.25rem;
+.about-hemi {
+  color: white;
+  padding: 10rem 1rem;
+  background-image: url("/images/field.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.about-hemi .container {
+  text-align: center;
+}
+.about-hemi .container p {
+  width: 50%;
+  text-align: center;
+  margin: 2rem auto 0 auto;
+}
+
+.mission {
+  background: #a5d9cd;
+  padding: 5rem 1rem 7rem 1rem;
+  background-image: url("/images/bg_green.png");
+}
+.mission .container {
+  width: 38%;
+  text-align: center;
+}
+.mission .container h1 {
+  font-size: 38px;
+  line-height: 1.2;
+  margin: 1rem 0 1.8rem 0;
+}
+.mission .container h1 strong {
+  color: #2a443f;
+}
+.mission .container .subhead {
+  font-size: 0.8em;
 }
 
 .footer {
   background: #231f20;
   color: #fff;
-  padding: 2rem 1rem;
+  padding: 5rem 1rem;
   text-align: center;
 }
 
@@ -234,10 +290,6 @@ em {
   text-decoration: underline;
 }
 
-section {
-  position: relative;
-}
-
 /* Responsive Styles */
 @media (max-width: 768px) {
   .hamburger {
@@ -246,7 +298,6 @@ section {
   .nav-list {
     display: none;
     flex-direction: column;
-    background-color: #ffdd67;
     position: absolute;
     top: 100%;
     right: 0;
