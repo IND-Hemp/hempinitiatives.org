@@ -1,0 +1,18 @@
+{
+  "name": "hempinitiatives.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ngrok": "ngrok start --all --config ngrok.yml",
+    "start": "live-server www --port=8080",
+    "scss": "sass --watch scss/styles.scss:www/css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.54.0"
+  }
+}
