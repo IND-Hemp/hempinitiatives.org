@@ -1,8 +1,9 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v5.0.2 | 20191019
    License: none (public domain)
 */
-@import url("https://p.typekit.net/p.css?s=1&k=qxl7yez&ht=tk&f=139.140.169.170.175.176&a=17641256&app=typekit&e=css");
+@import url("https://p.typekit.net/p.css?s=1&k=yck2rrg&ht=tk&f=137.139.169.175.5474.25136&a=9572391&app=typekit&e=css");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -60,19 +61,36 @@ table {
   border-spacing: 0;
 }
 
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * proxima-nova:
+ *   - http://typekit.com/eulas/00000000000000007735e602
+ *   - http://typekit.com/eulas/00000000000000007735e603
+ *   - http://typekit.com/eulas/00000000000000007735e611
+ *   - http://typekit.com/eulas/00000000000000007735e609
+ *   - http://typekit.com/eulas/00000000000000007735e606
+ *   - http://typekit.com/eulas/00000000000000007735e605
+ *
+ * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2024-10-13 21:17:05 UTC"}*/
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://use.typekit.net/af/e3ed45/00000000000000007735e602/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"), url("https://use.typekit.net/af/e3ed45/00000000000000007735e602/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"), url("https://use.typekit.net/af/e3ed45/00000000000000007735e602/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+}
 @font-face {
   font-family: "proxima-nova";
   src: url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
   font-display: auto;
   font-style: normal;
-  font-weight: 700;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: "proxima-nova";
-  src: url("https://use.typekit.net/af/4de20a/00000000000000007735e604/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"), url("https://use.typekit.net/af/4de20a/00000000000000007735e604/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"), url("https://use.typekit.net/af/4de20a/00000000000000007735e604/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
-  font-display: auto;
-  font-style: italic;
   font-weight: 700;
   font-stretch: normal;
 }
@@ -86,14 +104,6 @@ table {
 }
 @font-face {
   font-family: "proxima-nova";
-  src: url("https://use.typekit.net/af/58acf5/00000000000000007735e622/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("woff2"), url("https://use.typekit.net/af/58acf5/00000000000000007735e622/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("woff"), url("https://use.typekit.net/af/58acf5/00000000000000007735e622/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i8&v=3") format("opentype");
-  font-display: auto;
-  font-style: italic;
-  font-weight: 800;
-  font-stretch: normal;
-}
-@font-face {
-  font-family: "proxima-nova";
   src: url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/efe4a5/00000000000000007735e609/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
   font-display: auto;
   font-style: normal;
@@ -102,12 +112,24 @@ table {
 }
 @font-face {
   font-family: "proxima-nova";
-  src: url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/3322cc/00000000000000007735e616/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  src: url("https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/1be3c2/00000000000000007735e606/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
   font-display: auto;
-  font-style: italic;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: 300;
   font-stretch: normal;
 }
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://use.typekit.net/af/23e139/00000000000000007735e605/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/23e139/00000000000000007735e605/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/23e139/00000000000000007735e605/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+}
+.tk-proxima-nova {
+  font-family: "proxima-nova", sans-serif;
+}
+
 /* styles.css */
 * {
   margin: 0;
@@ -138,16 +160,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.header .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
 .header .nav-list {
   list-style: none;
   display: flex;
   margin-left: 9em;
   line-height: 1.2;
-  font-weight: bold;
+  font-weight: 800;
 }
 .header .nav-list li {
   margin-left: 1.5rem;
@@ -231,6 +249,7 @@ body {
 }
 .hero .container h1 strong {
   color: #2a443f;
+  font-weight: 900;
 }
 .hero .container .circle {
   position: absolute;
@@ -256,6 +275,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
+  font-weight: 300;
 }
 .hemp-copilot .container h1 {
   font-size: 38px;
@@ -267,6 +287,7 @@ body {
 }
 .hemp-copilot .container .subhead {
   font-size: 0.8em;
+  font-weight: 500;
 }
 .hemp-copilot .container .button {
   background-color: #b3d336;
@@ -274,6 +295,7 @@ body {
   font-size: 1.25em;
   margin-top: 3.5rem;
   display: inline-block;
+  font-weight: 500;
 }
 .hemp-copilot .container .copilot-info, .hemp-copilot .container .copilot-image {
   display: inline-block;
@@ -304,11 +326,15 @@ body {
 }
 .about-hemi .container {
   text-align: center;
+  font-weight: 500;
 }
 .about-hemi .container p {
   width: 50%;
   text-align: center;
   margin: 2rem auto 0 auto;
+}
+.about-hemi .container p strong {
+  font-weight: 800;
 }
 @media (max-width: 750px) {
   .about-hemi .container p {
@@ -324,17 +350,17 @@ body {
 .mission .container {
   width: 38%;
   text-align: center;
+  font-weight: 300;
 }
 .mission .container h1 {
+  font-weight: 300;
   font-size: 38px;
   line-height: 1.2;
   margin: 1rem 0 1.8rem 0;
 }
-.mission .container h1 strong {
-  color: #2a443f;
-}
 .mission .container .subhead {
   font-size: 0.8em;
+  font-weight: 500;
 }
 @media (max-width: 750px) {
   .mission .container {
